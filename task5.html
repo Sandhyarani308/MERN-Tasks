@@ -1,0 +1,142 @@
+<html>
+<head>
+<title>Task 5</title>
+<style>
+table{
+    margin-left:350px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td,
+tr,
+th{
+    border: 1px solid black;
+    
+    
+}
+#submit_form{
+text-align:center;
+margin-top:20px;
+}
+.redirect{
+text-align:right;
+}
+#heading{
+color:blue;
+text-align:center;
+}
+</style>
+
+</head>
+<body>
+<div id="heading">
+<h1> Registration Form </h1>
+</div>
+<form>
+
+
+
+<table border="1" width="50%" height="600px" bgcolor="white">
+
+
+
+<tr>
+<th>
+<label>Firstname</label></th>
+<th><input type="text"></th>
+</tr>
+
+
+<tr>
+<th><label>Last Name</label></th>
+<th><input type="text"></th>
+</tr>
+
+
+<tr >
+<th>
+<label>Email</label></th>
+<th><input type="email"></th>
+</tr>
+
+
+
+<tr >
+<th>
+<label>Password</label></th>
+<th><input type="password"></th>
+</tr>
+<tr >
+    <th>
+    <label>Re-Password</label></th>
+    <th><input type="password"></th>
+    </tr>
+
+<tr >
+<th>
+<label>Gender</label></th>
+<th>
+<input type="radio" name="gender">Male <br>
+<input type="radio" name="gender">Female
+</th>
+</tr>
+<tr>
+    <th><label>Age</label></th>
+    <th><input type="number"></th>
+</tr>
+<tr>
+    <th><label>Phone number</label></th>
+    <th><input type="number"></th>
+    </tr>
+    
+<tr>
+        <th><label>Adress</label></th>
+        <th><div id="address"><input type="text"></div></th>
+</tr>
+<tr>
+    <th><label>State</label></th>
+    <th><input type="text"></th>
+    </tr>
+
+
+
+<tr>
+<th>
+<label>Country</label></th>
+<th>
+<select name="city">
+    <option value="Choose your country">Choose your Country</option>   
+<option value="India">India</option>
+<option value="South Africa">South Africa</option>
+<option value="America">America</option>
+<option value="Japan">Japan</option>
+</th>
+</tr>
+<tr>
+ <th>   <label>Languages Known</label></th>
+ 
+  <th>  <input type="checkbox" name="languages[]" value="English">English 
+    <input type="checkbox" name="languages[]" value="Kannada">Kannada 
+
+    <input type="checkbox" name="languages[]" value="Hindi">Hindi 
+
+
+    <input type="checkbox" name="languages[]" value="Telugu">Telugu</th>
+</tr>
+
+
+<tr>
+<th colspan="2"><input type="checkbox" name="acknowledgement" value="declare"> Hereby I declare all the given deatils are true</th>
+</tr>
+<tr><th id="redirect" colspan="2" >
+Log in to <a href="https://ethnus.com/">Ethnus</a>   website</th>
+</tr>
+
+</table>
+<div id=submit_form>
+<input type="button"value="Register"/>  
+</div>
+</form>
+
+</body>
+</html>
